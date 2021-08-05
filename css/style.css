@@ -1,0 +1,250 @@
+body {
+    font-family: Impact, 'Haettenschweiler', 'Arial Narrow Bold', sans-serif;
+    background-color: black;
+  }
+
+
+
+nav {
+    text-align: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    font-size: 20px;
+    background-color: black;
+}
+
+
+nav ul li {
+    display: inline-block;
+    list-style-type: none;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 14px;
+}
+
+nav ul li a:hover {
+    background-color:#FFCE19;
+    color: black;
+  
+}
+
+/* Index Page */
+
+.intento {
+    vertical-align: top;
+    width: 40%;
+    display: inline-block;
+    margin-top: 100px;
+}
+
+.indextext {
+    
+    padding-top: 50px;
+    color: whitesmoke;
+    
+}
+
+.welcome {
+    font-size: 50px;
+    margin-top: 5px;
+}
+
+.recipes {
+    
+    font-size: 25px;
+    margin-top: 70px;
+    
+}
+
+
+
+.dayrecipe {
+    
+    font-size: 20px;
+    margin-top: 60px;
+    
+}
+
+.dayrecipe:hover {
+    background-color:#FFCE19;
+    color:black;
+  
+}
+
+.update {
+    width: 80%;
+    font-size: 25px;
+    margin-top: 60px;
+    
+}
+
+
+
+.fb,.yt,.tw,.ig {
+ 
+    margin-left: 10px;
+}
+
+
+.indeximage1 {
+   
+    padding-top: 30px;
+    padding-left: 70px;
+   
+}
+
+.indeximage2 {
+    
+    padding-top: 30px;
+    padding-left: 35px;
+  
+   
+}
+
+/* Recipe Page */
+
+.intento2 {
+    vertical-align: top;
+    width: 40%;
+    display: inline-block;
+    margin-top: 50px;
+}
+
+.recipetext {
+    
+    padding-top: 50px;
+    color: whitesmoke;
+    
+}
+
+.tortilla {
+    font-size: 50px;
+    margin-top: 5px;
+}
+
+.recipes {
+    
+    font-size: 25px;
+    margin-top: 70px;
+    
+}
+
+.recipeimage1 {
+   
+    padding-top: 200px;
+    padding-left: 70px;
+   
+}
+
+.recipeimage2 {
+    
+    padding-top: 200px;
+    padding-left: 35px;
+  
+   
+}
+
+.update1 {
+    width: 30%;
+    margin: 0 auto;
+    color: whitesmoke;
+    font-size: 25px;
+    margin-top: 40px;
+    
+}
+
+.update11 {
+    width: 13%;
+    margin: 0 auto;
+    color: whitesmoke;
+    font-size: 25px;
+    margin-top: 10px;
+    
+}
+
+/* Contact Page */
+
+.feedback {
+    font-size: 50px;
+    padding-top: 40px;
+    color: whitesmoke; 
+    text-align: center;
+}
+
+form {
+    max-width: 28%;
+    margin: 0 auto;
+    margin-top: 50px;
+    color: whitesmoke;
+    backdrop-filter: blur(8px);
+}
+
+fieldset {
+    background-color:rgb(10, 10, 10);
+    margin: 15px 0;
+    padding: 15px;
+   
+}
+
+
+legend {
+    background-color:#FFCE19;
+    color: black;
+    padding: 6px;
+    
+}
+
+
+label {
+    display: inline-block;
+    width: 160px;
+    padding: 5px;
+    margin-left: 10px;
+}
+
+
+input[type="text"], 
+input[type="email"] {
+    padding: 8px 5px;
+    width: 85%;
+    margin-bottom: 16px;
+    margin-left: 16px;
+    border: none;
+    
+}
+
+textarea {
+    margin-left: 16px;
+    width: 85%;
+}
+
+.ltextarea{
+    width:250px;
+}
+
+button {
+    width: 85%;
+    padding: 8px;
+    outline: none;
+    color: black;
+    background-color: #FFCE19;
+    margin: 16px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #FFA800;
+    font-style: italic;
+    font-weight: bolder;
+}
+
+a:link, a:visited, a:active {
+    color: whitesmoke;
+    
+}
